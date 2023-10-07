@@ -1,0 +1,353 @@
+.michelimg {
+  background-image: url('../../public/images/michael.svg');
+}
+.unsplashimg {
+  background-image: url('../../public/images/unsplash.jpg');
+}
+.michelimg2 {
+  background-image: url('../../public/images/michaelscott2.jpg');
+}
+.portterimg {
+  background-image: url('../../public/images/portter.jpg');
+}
+.ticeimg {
+  background-image: url('../../public/images/tice.jpg');
+}
+.martinimg {
+  background-image: url('../../public/images/martin.svg');
+}
+.portter2img {
+  background-image: url('../../public/images/portter2.jpg');
+}
+.tice2img {
+  background-image: url('../../public/images/tice2.jpg');
+}
+.maisonimg{
+  background-image: url('../../public/images/maisonhouse.svg');
+}
+
+.maisonimg2 {
+  background-image: url('../../public/images/maisonimg2.png');
+} 
+
+.Imagedelay {
+  position: relative;
+  animation: Imagedelay 0.4s linear;
+}
+@keyframes Imagedelay {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.Imagedelay2 {
+  animation: Imagedelay2 1s linear;
+ }
+@keyframes Imagedelay2 {
+  from {
+    opacity: 0; width:50% ;
+  }
+  to {
+    opacity: 1; width: 100%;
+  }
+}
+.Imagedelay3 {
+  position: relative;
+  animation: Imagedelay3 1s linear;
+ }
+@keyframes Imagedelay3 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeInRightLink {
+  position: relative;
+  animation: fadeInRightLink 0.4s ease-in-out;
+}
+@keyframes fadeInRightLink {
+  from {
+    right: -100px;
+  }
+  to {
+    right: 0;
+  }
+}
+.fadeInRightHeading {
+  position: relative;
+  animation: fadeInRightHeading 0.5s ease-in-out;
+}
+@keyframes fadeInRightHeading {
+  from {
+    right: -100px;
+  }
+  to {
+    right: 0;
+  }
+}
+.fadeInRightParagraph {
+  position: relative;
+  animation: fadeInRightParagraph 0.6s ease-in-out;
+}
+@keyframes fadeInRightParagraph {
+  from {
+    right: -100px;
+  }
+  to {
+    right: 0;
+  }
+}
+.fadeInRightButton {
+  position: relative;
+  animation: fadeInRightButton 0.7s ease-in-out;
+}
+@keyframes fadeInRightButton {
+  from {
+    right: -100px;
+  }
+  to {
+    right: 0;
+  }
+}
+.fadeInRightButton2 {
+  position: relative;
+  animation: fadeInRightButton2 0.7s ease-in-out;
+}
+@keyframes fadeInRightButton2 {
+  from {
+    right: -80px;
+  }
+  to {
+    right: 0;
+  }
+}
+.fadeInleft {
+  position: relative;
+  animation: fadeInleft 0.7s ease-in-out;
+}
+@keyframes fadeInleft {
+  from {
+    left: -100px;
+  }
+  to {
+    left: 0;
+  }
+}
+.fadeInRightImage {
+  position: relative;
+  animation: fadeInRightImage 0.5s ease-in-out;
+}
+@keyframes fadeInRightImage {
+  from {
+    right: -80px;
+  }
+  to {
+    right: 0;
+  }
+}
+.fadeInRightImage2 {
+  position: relative;
+  animation: fadeInRightImage2 0.7s ease-in-out;
+}
+@keyframes fadeInRightImage2 {
+  from {
+    right: -80px;
+  }
+  to {
+    right: 44px;
+  }
+}
+.fadeInBottom {
+  animation-name: fadeInBottom;
+  animation-duration: 0.7s;
+  animation-fill-mode: both;
+}
+@keyframes fadeInBottom {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.transitionLeft {
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.fadeInLeftAudience {
+  animation-name: fadeInLeftNew;
+  animation-duration: 4s;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeInLeftNew {
+  from {
+    opacity: 0;
+    transform: translateX(-40%);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeInRightAudience {
+  animation-name: fadeInRightNew;
+  animation-duration: 4s;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeInRightNew {
+  from {
+    opacity: 0;
+    transform: translateX(40%);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeInBottomAudience {
+  animation-name: fadeInBottomAudience;
+  animation-duration: 4s;
+  animation-fill-mode: both;
+}
+@keyframes fadeInBottomAudience {
+  from {
+    opacity: 0;
+    transform: translateY(20%);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+.BottomAnimation {
+  position: relative;
+  transform: translateY(50px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.BottomAnimation.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.TopAnimation {
+  position: relative;
+  transform: translateY(-50px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.TopAnimation.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.LeftAnimation {
+  position: relative;
+  transform: translateX(8.49%);
+  opacity: 0;
+  transition-delay: 0.4;
+  transition: 1s all ease;
+}
+
+.LeftAnimation.active {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.RightAnimation {
+  position: relative;
+  transform: translateX(-8.49%);
+  opacity: 0;
+  transition-delay: 0.4;
+  transition: 1s all ease;
+}
+
+.RightAnimation.active {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.growing {
+  transition: all 1s ease-in-out; 
+  transform: scale(0.7);
+}
+
+.growing.active { transform: scale(1); }
+
+.slideNavigation {
+  position: relative;
+}
+
+.slideNavigation .indicator {
+  position: absolute;
+  left: 0;
+  width: 197px;
+  height: 50px;
+  transition: 0.5s;
+}
+
+.slideNavigation .indicator::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 197px;
+  height: 50px;
+  background: #edf0ff;
+  transform: translate(-50%, -50%);
+  border-radius: 16px;
+  transition: 0.5s;
+}
+
+@media (max-width: 767px) {
+  .slideNavigation .indicator {
+    width: 100%;
+  }
+
+  .slideNavigation .indicator::before {
+    width: 96%;
+  }
+
+  .slideNavigation button:nth-child(1).active ~ .indicator {
+    transform: translateY(0px);
+  }
+  .slideNavigation button:nth-child(2).active ~ .indicator {
+    transform: translateY(50px);
+  }
+  .slideNavigation button:nth-child(3).active ~ .indicator {
+    transform: translateY(100px);
+  }
+}
+
+@media (min-width: 768px) {
+  .slideNavigation button:nth-child(1).active ~ .indicator {
+    transform: translateX(6px);
+  }
+  .slideNavigation button:nth-child(2).active ~ .indicator {
+    transform: translateX(175px);
+  }
+  .slideNavigation button:nth-child(3).active ~ .indicator {
+    transform: translateX(348px);
+  }
+}

@@ -1,0 +1,72 @@
+@font-face {
+  	font-family: "NB International Pro Regular";
+  	src: url("../../public/nb_international_pro_regular-webfont.woff2") format("woff2"), url("../../public/nb_international_pro_regular-webfont.woff") format("woff");
+}
+
+@font-face {
+    font-family: NunitoLight;
+    src: url(../../public/fonts/Nunito/Nunito-Light.ttf);
+}
+
+@font-face {
+    font-family: NunitoRegular;
+    src: url(../../public/fonts/Nunito/Nunito-Regular.ttf);
+}
+
+@font-face {
+    font-family: NunitoMedium;
+    src: url(../../public/fonts/Nunito/Nunito-Medium.ttf);
+}
+
+@font-face {
+    font-family: NunitoSemiBold;
+    src: url(../../public/fonts/Nunito/Nunito-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: NunitoBold;
+    src: url(../../public/fonts/Nunito/Nunito-Bold.ttf);
+}
+
+@font-face {
+    font-family: OutfitMedium;
+    src: url(../../public/fonts/Outfit/Outfit-Medium.ttf);
+}
+
+@font-face {
+	font-family: OutfitLight;
+	src: url(../../public/fonts/Outfit/Outfit-Light.ttf);
+}
+
+@font-face {
+	font-family: OutfitRegular;
+	src: url(../../public/fonts/Outfit/Outfit-Regular.ttf);
+}
+
+@font-face {
+	font-family: OutfitSemiBold;
+	src: url(../../public/fonts/Outfit/Outfit-SemiBold.ttf);
+}
+
+.nav-normal-text, .nav-small-text {
+  	font-family: "NB International Pro Regular";
+  	color: #1c1d1d;
+ 	font-smooth: antialiased;
+}
+
+.nav-normal-text {
+  	font-size: 21px;
+}
+
+@media only screen and (min-width: 768px) {
+  	.nav-normal-text {
+    	font-size: 16px;
+  	}
+}
+
+.nav-small-text {
+  	font-family: "NB International Pro Regular";
+  	font-size: 16px;
+  	color: #1c1d1d;
+  	font-smooth: antialiased;
+}

@@ -1,0 +1,15 @@
+.btn-primary {
+    background-color: #296fed !important;
+}
+
+.button { 
+    background: #006DFF;
+    border-radius: 12px;
+    color: #fff;
+    display: inline-block;
+    font-family: Nunito,Outfit,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 24px;
+    margin: 12px
+}

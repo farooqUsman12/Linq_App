@@ -1,0 +1,90 @@
+.carousel {
+  position: relative;
+}
+
+.carousel-container {
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+ -webkit-overflow-scrolling: touch;
+  /* scroll-snap-type: x mandatory; */
+  scroll-padding: 1rem;
+}
+.carousel-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge add Firefox */
+.carousel-container {
+  -ms-overflow-style: none;
+  scrollbar-width: none; /* Firefox */
+}
+
+.carousel-item {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  padding: 0 0.5rem;
+}
+
+.carousel-prev,
+.carousel-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: transparent;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.carousel-prev {
+  opacity: 0;
+  transition: opacity 1s;
+  left: 18px !important;
+  transform: rotate(180deg);
+  background-image: url(../../public/images/product-leftArrow.png) !important;
+  width: 47px;
+  height: 47px;
+  top: 32%;
+}
+.customSliderBox .carousel-prev {
+  top : 46%;
+} 
+
+.carousel-next {
+  opacity: 0;
+  right: 18px;
+  transition: opacity 1s;
+  background-image: url(../../public/images/product-leftArrow.png) !important;
+  width: 47px;
+  height: 47px;
+  
+}
+
+.carousel:hover .carousel-prev {
+  opacity: 1;
+}
+.carousel:hover .carousel-next {
+opacity: 1;
+}
+@media (min-width : 1120px) {
+  .product-card {
+    transform: translateX(calc(max(1024px, 100vw)/2 - 586px));
+  }
+  
+}
+@media (min-width : 1380px) {
+  .infoLinksSlider {
+    transform: translateX(calc(max(1024px, 100vw)/2 - 642px));
+  }
+}
+
+@media (max-width : 1380px) {
+  .customSliderBox .carousel-item {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+}

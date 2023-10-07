@@ -1,0 +1,9 @@
+.bestIndividual {
+  border-radius: 8px;
+  border: 1.5px solid var(--black-and-white-white, #FFF);
+  background: linear-gradient(98deg, #EDF0FF -57.92%, #006DFF 109.6%);
+}
+
+.businessBg {
+  background-image: url(../../public/images/businesses.jpg);
+}
